@@ -208,7 +208,7 @@ var Omni = {}
      */
 var client
 
-// 功能拓展 2018年03月21日14:16:42 by cf
+// 接口优化 2018年03月21日
 Omni.listunspent = function(min, max, address, cb) {
     var min = min || 1
     var max = max || 999999
